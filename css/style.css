@@ -1,0 +1,111 @@
+/* daftar */
+:root {
+  /* warna */
+  --bluesoft: #f9fbfc;
+  --blue: #3a38ff;
+  --navy: #101041;
+  --purplesoft: #e5e4ff;
+  --darkgrey: #949293;
+  --darkgrey2: #e7ebed;
+  --grey: #dfe2e7;
+  --purple: #6261d8;
+  --grenn: #316762;
+  --white: #ffffff;
+  /* fonts */
+  --fwextrabold: 800;
+  --fwbold: 700;
+  --fwsemibold: 600;
+  --fwmedium: 500;
+  --fwregular: 400;
+  --fwlight: 300;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bluesoft);
+}
+
+.big-header {
+  font-weight: var(--fwextrabold);
+  color: var(--navy);
+  font-size: 48px;
+  margin: 0;
+}
+
+.medium-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 28px;
+  margin: 0;
+}
+
+.small-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 22px;
+  margin: 0;
+}
+
+.primary-copy {
+  font-weight: var(--fwregular);
+  color: var(--grey);
+  font-size: 16px;
+  margin: 0;
+  line-height: 28px;
+}
+
+.btn-primary {
+  padding: 12px 20px 12px 20px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: var(--fwsemibold);
+  border-radius: 50px;
+  border: 0;
+}
+
+.btn-secondary {
+  padding: 12px 20px 12px 20px;
+  background: var(--grey);
+  color: var(--navy);
+  font-size: 16px;
+  font-weight: var(--fwmedium);
+  border-radius: 50px;
+  border: 0;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: var(--blue);
+  transition: all 0.3s ease;
+  font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a {
+  color: var(--navy);
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 25px;
+  padding-left: 25px;
+  font-weight: var(--fwregular);
+}
+
+.navbar-brand {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 28px;
+  margin: 0;
+}
+
+/* menghilangkan padding bs5 navbar */
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+.casher-navbar {
+  background: var(--white);
+  padding: 30px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}

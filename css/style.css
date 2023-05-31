@@ -64,6 +64,12 @@ body {
   border: 0;
 }
 
+/* effect hover */
+.btn-primary:hover {
+  background: var(--navy);
+  color: var(--white);
+}
+
 .btn-secondary {
   padding: 12px 20px 12px 20px;
   background: var(--grey);
@@ -72,6 +78,11 @@ body {
   font-weight: var(--fwmedium);
   border-radius: 50px;
   border: 0;
+}
+/* btn hover */
+.btn-secondary:hover {
+  background: var(--navy);
+  color: var(--white) !important;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -108,4 +119,56 @@ body {
   padding: 30px;
   border-bottom-left-radius: 26px;
   border-bottom-right-radius: 26px;
+}
+
+/* header / banner */
+.badge {
+  padding: 8px 16px 8px 16px;
+  background: var(--purplesoft);
+  border-radius: 50px;
+  width: 300px;
+}
+
+.badge .icon {
+  float: left;
+  margin-right: 6px;
+}
+
+.small-copy {
+  font-size: 14px;
+  color: var(--navy);
+  font-weight: var(--fwsemibold);
+}
+
+.badge .small-copy {
+  padding-top: 4px;
+  margin: 0;
+}
+
+.big-header {
+  font-weight: var(--fwextrabold);
+  color: var(--navy);
+  font-size: 48px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.primary-copy {
+  font-weight: var(--fwregular);
+  color: var(--darkgrey);
+  font-size: 16px;
+  margin: 0;
+  line-height: 28px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
